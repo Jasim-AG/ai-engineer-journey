@@ -1,0 +1,8 @@
+marks = (10, 20, 30, 40, 50, 22)
+print("1st element is ", marks[0])
+print("last element is ", marks[-1])
+print("count of marks is ", len(marks))
+print("highest mark is", max(marks))
+print("lowest mark is", min(marks))
+print("total mark is", sum(marks))
+print("average mark is", sum(marks)/len(marks))
